@@ -1,0 +1,78 @@
+
+$sky1-color: #0076be;
+$skyAtlantic-color: #003663;
+$skyArts-color: #734993;
+$skyLiving-color: #87a0af;
+$skyMovies-color: #a51d4d;
+
+
+@font-face {
+  font-family: 'SkyTextRegular';
+  src: url('/fonts/sky_regular.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/sky_regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('/fonts/sky_regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('/fonts/sky_regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'SkyTextMedium';
+  src: url('/fonts/sky_medium.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/sky_medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('/fonts/sky_medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('/fonts/sky_medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: SkyTextMedium;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: #0000FF;
+}
+
+.slideShow {
+  height: 100vh;
+
+}
+.slide {
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+  display: table;
+  h1 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 150px;
+  }
+}
+
+
+
+.slide1 {
+  background-color: $sky1-color;
+}
+
+.slide2 {
+  background-color: $skyAtlantic-color;
+}
+
+.slide3 {
+  background-color: $skyMovies-color;
+}
+
+.slide4 {
+  background-color: $skyArts-color;
+}
+
+.slide5 {
+  background-color: $skyLiving-color;
+}
