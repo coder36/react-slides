@@ -15,13 +15,13 @@ export default class Slide3 extends React.Component {
     }
 
     tick() {
-        store.dispatch( {type: 'tick', offset: 10})
+        store.dispatch( {type: 'tick', offset: 1})
     }
 
     render() {
         return(
             <div className='title slide slide3'>
-                <h1>Count: {this.props.count}</h1>
+                <h1>{this.props.count}</h1>
             </div>
         );
     }

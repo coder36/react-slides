@@ -21,7 +21,7 @@ Use left and right arrows to navigate the slideshow.
 ##Adding more slides
 
 1) Create a slide eg. `src/slides/slide/slide5.js` :
-
+```
 export default class Slide5 extends React.Component {
 
     render() {
@@ -33,6 +33,7 @@ export default class Slide5 extends React.Component {
     }
 
 }
+```
 
 2) Create a new css class called `slide5` in `src/stylesheets/app.scss`
 
