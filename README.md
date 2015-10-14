@@ -56,3 +56,7 @@ let slides = [ 'slide1', 'slide2', 'slide3', 'slide4', 'slide5'];
 
 [http://localhost:3000/#/slide2](http://localhost:3000/#/slide2)
 
+
+## License
+
+Licensed under the [MIT license](https://raw.githubusercontent.com/coder36/react-slides/master/LICENSE).

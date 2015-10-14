@@ -56,6 +56,7 @@
     "react-dom": "^0.14.0",
     "react-redux": "^3.0.1",
     "redux": "^3.0.2",
-    "redux-devtools": "^2.1.5"
+    "redux-devtools": "^2.1.5",
+    "request": "^2.65.0"
   }
 }
