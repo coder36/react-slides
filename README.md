@@ -3,6 +3,7 @@ React technology slide show developed with react and redux.   All the slides are
 
   * React
   * Redux
+  * React Router
   * ES6
   * Webpack
 
@@ -44,4 +45,14 @@ let slides = [ 'slide1', 'slide2', 'slide3', 'slide4', 'slide5'];
 
 4) Save -> Hot deploy
 
+
+## React Router
+
+[http://localhost:3000](http://localhost:3000)
+
+[http://localhost:3000/#/slideshow](http://localhost:3000/#/slideshow)
+
+[http://localhost:3000/#/slide1](http://localhost:3000/#/slide1)
+
+[http://localhost:3000/#/slide2](http://localhost:3000/#/slide2)
 
