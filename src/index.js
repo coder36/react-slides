@@ -3,5 +3,6 @@ import Slideshow from './slideshow'
 import { Provider } from 'react-redux';
 import store from './store';
 import './stylesheets/app.scss'
+import ReactDOM from 'react-dom'
 
-React.render( <Provider store={store}>{() => <Slideshow/>}</Provider>, document.getElementById('content'));
+ReactDOM.render( <Provider store={store}><Slideshow/></Provider>, document.getElementById('content'));

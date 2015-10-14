@@ -2,6 +2,7 @@ import React from 'react'
 import store from './store'
 import { connect } from 'react-redux';
 
+@connect( (state) => state )
 export default class Slideshow extends React.Component {
 
     constructor(props) {
@@ -23,9 +24,3 @@ export default class Slideshow extends React.Component {
     }
 
 }
-
-function select(state) {
-    return state;
-}
-
-export default connect(select)(Slideshow)

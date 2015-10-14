@@ -3,7 +3,6 @@ import store from '../store'
 
 export default class Slide3 extends React.Component {
 
-
     componentDidMount() {
         this.timer = setInterval( (() => {
             this.tick();
