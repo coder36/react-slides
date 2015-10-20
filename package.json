@@ -35,7 +35,7 @@
     "react-transform"
   ],
   "author": "Mark Middleton <markymiddleton@gmail.com> (http://github.com/coder36)",
-  "license": "CC0-1.0",
+  "license": "MIT",
   "homepage": "https://github.com/coder36/react-slides",
   "devDependencies": {
     "babel-core": "^5.4.7",
@@ -68,6 +68,7 @@
     "react": "^0.14.0",
     "react-dom": "^0.14.0",
     "react-redux": "^3.0.1",
+    "react-router": "^1.0.0-rc3",
     "redux": "^3.0.2",
     "redux-devtools": "^2.1.5",
     "request": "^2.65.0"
