@@ -1,5 +1,6 @@
 import React from 'react';
 import Slideshow from './slideshow'
+import Carousel from './carousel'
 import Slide from './slide'
 import { Provider } from 'react-redux';
 import store from './store';
@@ -20,6 +21,7 @@ function Root() {
             <Router>
                 <Route path="/" component={Slideshow}/>
                 <Route path="/slideshow" component={Slideshow}/>
+                <Route path="/carousel" component={Carousel}/>
                 <Route path="/:slide_name" component={Sslide}/>
             </Router>
         </Provider>

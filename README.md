@@ -4,11 +4,12 @@ React technology slide show developed with react and redux.   All the slides are
   * React
   * Redux
   * React Router
+  * React-swipe
   * ES6
   * Webpack
 
-### [Slideshow](https://ancient-basin-7920.herokuapp.com/)
- 
+### [Slideshow](https://ancient-basin-7920.herokuapp.com/#carousel)
+
 #### [Slide 1](https://ancient-basin-7920.herokuapp.com/#slide1) - [Slide 2](https://ancient-basin-7920.herokuapp.com/#slide2) - [Slide 3](https://ancient-basin-7920.herokuapp.com/#slide3) - [Slide 4](https://ancient-basin-7920.herokuapp.com/#slide4) - [Slide 5](https://ancient-basin-7920.herokuapp.com/#slide5) - [Slide 6](https://ancient-basin-7920.herokuapp.com/#slide6)
 
 

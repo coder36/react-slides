@@ -1,6 +1,8 @@
 import React from 'react'
 import store from '../store'
+import { connect } from 'react-redux';
 
+@connect( (state) => state )
 export default class Slide3 extends React.Component {
 
     componentDidMount() {

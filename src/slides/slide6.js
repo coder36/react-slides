@@ -1,8 +1,9 @@
 import React from 'react'
 import {loadJson, find_nested_prop} from '../utils'
 import store from '../store'
+import { connect } from 'react-redux';
 
-
+@connect( (state) => state )
 export default class Slide6 extends React.Component {
 
     componentDidMount() {
